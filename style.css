@@ -1,0 +1,171 @@
+
+
+
+body {
+	margin: 0 ;
+	background-color: ghostwhite;
+	font-family: fantasy;
+}
+
+header {
+background-color: gainsboro;
+font-size:1.1rem;
+padding: 0.8px 0.8px;
+text-align: right; 
+border-style:inset;
+border-color: olivedrab;
+height: 120px;
+}
+.imagen1 {
+	position: relative;
+	right:1050px;
+	bottom:120px;
+	 animation: slidein 3s infinite linear alternate-reverse;
+ }
+	
+@keyframes slidein {
+  from {
+    margin-right: 3%;
+    width: 20%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 20%;
+  }
+}
+.titulo {
+	
+	animation: noise-anim-2 3s infinite linear alternate-reverse;
+	 -webkit-text-stroke-width: 2px;
+	 color: darkmagenta;
+	 text-shadow: 7px 7px ghostwhite;
+}
+
+@keyframes noise-anim-2	{
+	from {
+		padding-bottom: 3%;
+		width: 50%;
+	}
+	to {
+		padding-top: 3%;
+		width: -40%;
+	}
+}
+
+
+.menu {
+	position: relative;
+	top: -20px;
+
+}
+.inicio {
+	position: absolute;
+	left: 10px;
+	border-width: 3px;
+}
+.registro {
+	position: absolute;
+	text-align: center;
+	right: 700px;
+    border-width: 3px;
+}
+.admind {
+	position: absolute;
+	right: 10px;
+	border-width: 3px;
+}
+
+
+h2 {
+
+	position:  relative;
+	top: 10px;
+	animation:ease-in-out alternate 5s infinite;
+	 background: linear-gradient(to right, rgb(97, 67, 133), rgb(81, 99, 149));
+     height: 20vh;
+     padding-top: 10px;
+
+     color: ghostwhite;
+    
+    -webkit-text-stroke-width: 1px;
+    -moz-text-stroke-color: #000000;
+    -webkit-text-stroke-color: #ffffff
+animation:  ease-in-out 6s alternate-reverse infinite;
+
+}
+
+
+.mercado {
+	position: absolute;  
+	right: 300px;
+left: 900px;
+bottom: 100px;
+color: dodgerblue;
+font-size:xx-large;
+font-family: fantasy;
+font-weight: 900;
+
+}
+
+.imagenkucoin {
+	position: relative;
+	top: 100px;
+	background-color: lightblue;
+
+}
+
+.imagencoinmarket {
+	position: relative;
+	top: 50px;
+
+}
+
+h5 {
+	position: relative;
+	text-align: left;
+	border: inset;
+	top: 20px;
+}
+.analisis {
+	position: relative;
+	left: 650px;
+}
+
+
+.imagen2 {
+	position: relative;
+	left: 50px;
+}
+.imagen3 {
+	position: relative;
+	left: 500px;
+	 
+ }
+
+ .imagen4 {
+ 	position: relative;
+ 	left: 900px;
+ }
+
+footer {
+	position: static;
+padding-bottom: 2rem;
+margin-bottom: -0.9rem;
+	background-color:bisque;
+	text-color: white;
+	text-align: left;
+	border: inset;
+
+}
+#derechosreservados {
+position: relative;
+top: 15px;
+}
+
+.siguenos {
+	position: relative;
+	left:550px ;
+	top: 15px;
+}
+
